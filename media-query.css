@@ -1,0 +1,292 @@
+@media(max-width:450px){
+    .nav_logo{
+        width: 6rem;
+    }
+
+    .navigation_bar{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    .sticky .nav_logo{
+        width: 5rem;
+    }
+    
+    .sticky ~.hero-section{
+        margin-top: 0;
+    }
+
+    .hero_container-1{
+        text-align: center;
+    }
+
+    .hero-content-1 span{
+        font-size: 55px;
+    }
+    
+    .hero-content-1 p{
+        font-size: 30px;
+        
+    }
+
+    .unleash_text{
+        display: block;
+    }
+
+    .mg-space{
+        margin: 0;
+
+    }
+
+    .explore_btn{
+        margin: 5rem auto 3rem;
+    }
+
+    .hero-content-2{
+        margin: auto ;
+        font-size: 15px;
+    }
+
+    .title_highlight{
+       font-size: 40px; 
+    }
+
+    .wlc_container{
+        flex-direction: column;
+        
+    }
+
+    .wlc_left_container{
+        width: 25rem;
+        height: 14rem;
+        font-size: 22px;
+        border-radius: 10px;
+        top: 14%;
+        z-index: 5;
+    }
+
+    .wlc_right_container >*{
+        width: 25rem;
+        padding: 2em;
+        top: 100px;
+    }
+
+    .wlc_right_content{
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: start;
+    }
+
+    .place_images{
+       display: flex;
+       flex-direction: column;
+       width: 465px;
+    }
+
+    .place_images span{
+        font-size: 20px;
+    }
+
+    .place_images p{
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .item {
+        justify-content: center;
+        text-align: center;  
+        height: 11rem; 
+    }
+
+    .img2 span{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section4{
+        padding: 0;
+    }
+
+    .prices_parent_pack{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        
+    }
+
+    .price_first_card{
+        width: 320px;
+    }
+
+    .flip_card{
+        height: 35rem;
+    }
+
+    .price-content{
+        font-size: 30px;
+    }
+
+    .price_area{
+        font-weight: lighter;
+        font-size: 18px;
+        
+    }
+    
+    .price_area img{
+        width: 1.2rem;
+        
+    }
+
+    .inner_area{
+        font-size: 50px;
+    }
+
+    .testimonial_card{
+        padding: 10em 8em;
+        width: 50%;
+    }
+
+    .user_img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .content{
+        font-size: 0.6rem;
+        font-weight: normal;
+        width: 130%;
+    }
+
+    .person_rating{
+        top: 70%;
+    }
+
+    .person_name{
+        font-size: 12px;
+    }
+
+    .rating{
+        padding: 0;
+    }
+    
+    .stars{
+        font-size: 1.3rem;
+    }
+
+    .section6{
+        width: 420px;
+        height: 550px;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.60) 100%,transparent 100%) ,
+    url(./images/Rectangle\ 13.png);
+        background-position: right;
+    }
+    
+    .number_content{
+        font-size: 47px;
+        padding: 0;
+        margin: 0;
+        margin-top: 3rem;
+    }
+    .numbers_container{
+        margin: 0;
+        padding:2em;
+    }
+    .customers_review{
+        font-size: 20px;
+        
+    }
+
+    .number{
+        font-size: 40px;
+    }
+
+    .downside{
+        margin: 0;
+    }
+
+    .footer_section{
+        width: 400px;
+    }
+
+    .footer_container{
+        flex-direction: column-reverse;
+    }
+
+    .footer_right_container{
+        margin: 0;
+    }
+
+    .footer_content{
+        width: 420px;
+        font-weight: normal;
+        padding: 1em 0;
+    }
+
+    .btn_parent button , .btn_parent input[type=email]{
+        width: 100%;
+        
+    }
+
+    .btn_parent button{
+        margin: 1rem 0 0 0;
+    }
+
+    .footer_left_container{
+        padding: 2em;
+        font-size: small;
+
+    }
+
+    .social_media_container{
+        width: 400px;
+        height: 180px;
+    }
+
+    .social_media{
+        flex-direction: column-reverse;
+        gap: 1rem;
+        height: 0;
+    }
+
+   .fa{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 22px;
+    }
+
+    .footer_logo_img{
+        width: 9rem;
+        
+    }
+
+    .copyright{
+        font-weight: normal;
+        margin: 0;
+        flex-direction: column;
+        gap: 3rem;
+        font-size: 14px;
+        margin-bottom: 3rem;
+
+    }
+
+    .copyright_content{
+        text-align: center;
+        
+    }
+
+    .terms_and_conditions{
+        padding: 2em;
+        gap: 5rem;
+        
+    }
+    
+    
+
+
+    
+
+}
