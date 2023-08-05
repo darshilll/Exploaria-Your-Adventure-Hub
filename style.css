@@ -322,6 +322,10 @@ button p{
     
 }
 
+.places_parent_conatainer{
+    padding: 1em;
+}
+
 .place_images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -451,6 +455,7 @@ button p{
 
 .card_front{
     background-color: #94FEC9;
+    overflow: hidden;
 }
 
 .card_front,
@@ -515,6 +520,20 @@ button p{
     color: white;
     border: 3px solid #00E371;
    
+}
+
+.ribbon{
+    background-color: rgb(13, 255, 133);
+    position: absolute;
+    z-index: 1;
+    top: 23px;
+    color: black;
+    right: -35px;
+    padding: .4em 2em;
+    transform: rotate(45deg);
+    font-weight:700;
+    overflow: hidden;
+    font-family: Montserrat;
 }
 
 .color_white{
